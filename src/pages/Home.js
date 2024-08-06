@@ -1,50 +1,45 @@
+import React from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import GithubIcon from '@mui/icons-material/GitHub';
-
-import React from 'react';
 import "../styles/Home.css";
 
-function Home() {
+function Home({ formData }) {
   return (
     <div className='home'>
       <div className='about'>
-        <h2>Hi, My name is Sambav</h2>
+        <h2>Hi, my name is {formData.name}</h2>
         <div className='prompt'>
-          <p>A software developer with a passion for learning and creating</p>
-          <a href="https://www.linkedin.com/in/sambav-jetty-819962180/" ><LinkedInIcon /></a>
-          <a href="mailto:sambavjetty@gmail.com"><EmailIcon /></a>
-          <a href="https://github.com/SambavJetty"><GithubIcon /></a>
+          <p>A software developer with a passion for learning and creating.</p>
+          <a href={formData.linkedin}>
+            <LinkedInIcon />
+          </a>
+          <a href={`https://mail.google.com/mail/?view=cm&fs=1&to=${formData.gmail}`}>
+            <EmailIcon />
+          </a>
+          <a href={formData.github}>
+            <GithubIcon />
+          </a>
         </div>
       </div>
       <div className='skills'>
         <ul className='list'>
           <li className='item'>
-            <h2>Front-End</h2>
-            <span>
-              ReactJS, Angular, HTML, CSS, NPM, Bootstrap
-            </span>
+            <h2>Skills</h2>
+            <span>{formData.skills}</span>
           </li>
           <li className='item'>
-            <h2>Back-End</h2>
-            <span>
-              NodeJS, ExpressJS, MySQL, MongoDB, AWS S3
-            </span>
+            <h2>Certifications</h2>
+            <span>{formData.certifications}</span>
           </li>
           <li className='item'>
             <h2>Languages</h2>
-            <span>
-              JavaScript, Java, Python, SQL
-            </span>
+            <span>{formData.languages}</span>
           </li>
-
-          
         </ul>
-        
       </div>
-      <div className=''></div>
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
