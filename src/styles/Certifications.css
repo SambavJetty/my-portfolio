@@ -1,0 +1,27 @@
+.certifications {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .title{
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  
+  .certlist {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    margin-top: -20px;
+  }
+  
+  
+  
+  
