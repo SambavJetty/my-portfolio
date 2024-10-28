@@ -8,7 +8,7 @@ import CSS from '../assets/CSS.png';
 import PE from '../assets/prompteng.jpg';
 import WP from '../assets/wordpress.jpg';
 import SM from '../assets/socialmedia.jpg';
-import MERN from '../assets/MERN full stack.png';
+import MERN from '../assets/MERN.png';
 import '../styles/Certifications.css';
 
 
