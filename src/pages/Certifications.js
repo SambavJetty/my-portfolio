@@ -8,6 +8,7 @@ import CSS from '../assets/CSS.png';
 import PE from '../assets/prompteng.jpg';
 import WP from '../assets/wordpress.jpg';
 import SM from '../assets/socialmedia.jpg';
+import MERN from '../assets/MERN full stack.png';
 import '../styles/Certifications.css';
 
 
@@ -18,6 +19,7 @@ const Certifications = () => {
         <div className='certlist'>
             <ProjectItem  className='citem' name="AWS SAA" image={SAA}/>
             <ProjectItem  className='citem' name="AWS CP" image={CP}/>
+            <ProjectItem  className='citem' name="MERN" image={MERN}/>
             <ProjectItem  className='citem' name="Python" image={PY}/>
             <ProjectItem  className='citem' name="Html" image={HTML}/>
             <ProjectItem  className='citem' name="CSS" image={CSS}/>
