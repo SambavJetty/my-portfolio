@@ -10,7 +10,7 @@ function Projects() {
     <div className='projects'>
       <h2>My Personal Projects</h2>
       <div className='projectList'>
-        <ProjectItem className='projectItem' name="Twitter Feed Parser" image={uploading_image}/>
+        <ProjectItem className='projectItem' name="FB User Data and Sentiment Visualizer" image={uploading_image}/>
         <a href='https://reveria.vercel.app/' style={{ color: 'black', textDecoration: 'none' }}><ProjectItem className='projectItem' name="Reveria: E-Commerce" image={reveira_thumbnail}/></a>
         <a href='https://cywp.vercel.app/' style={{ color: 'black', textDecoration: 'none' }}><ProjectItem className='projectItem' name="Create Your Portfolio" image={cyp_thumbnail}/></a>
       </div>
