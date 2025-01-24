@@ -76,24 +76,10 @@ function Experience() {
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            AWS Cloud Practitioner
+            VomyChat
           </h3>
           
-          <p>Completed AWS Cloud Practitoner </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2024 - 2025"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            AWS Cloud Solutions Architect Associate
-          </h3>
-          <p>
-            Completed AWS Cloud Solutions Architect Associate
-          </p>
+          <p> Backend Intern </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
