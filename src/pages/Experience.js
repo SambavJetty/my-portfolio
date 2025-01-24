@@ -14,25 +14,25 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2007 - 2019"
+          date="2024 - 2025"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            S.V.Public School, Machilipatnam
+            VomyChat
           </h3>
-          <p> Schooling </p>
+          <p> Backend intern </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2019 - 2021"
+          date="2023 - 2024"
           iconStyle={{ background: "#3e497a", color: "#fff" }}
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Star College, Machilipatnam
+            IET Club
           </h3>
-          <p> Intermediate </p>
+          <p> Member </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -43,43 +43,31 @@ function Experience() {
           <h3 className="vertical-timeline-element-title">
             VIT-AP University, Inavolu
           </h3>
-          <p> Bachelor's Degree</p>
+          <p> Bachelor's Degree </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2022 - 2023"
+          date="20219 - 2021"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            Youtuber Club
+            Star Pavitra Junior College
           </h3>
           
-          <p>Member </p>
+          <p> Intermediate </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2023 - 2024"
+          date="2007 - 2019"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            IET Club
+            S.V.Public School
           </h3>
           
-          <p>Member </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2024 - 2025"
-          iconStyle={{ background: "#e9d35b", color: "#fff" }}
-          icon={<WorkIcon />}
-        >
-          <h3 className="vertical-timeline-element-title">
-            VomyChat
-          </h3>
-          
-          <p> Backend Intern </p>
+          <p> Schooling </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
