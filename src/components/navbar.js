@@ -11,7 +11,7 @@ function navbar() {
             <Link to="/experience">Experience</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/certifications">Certifications</Link>
-            <a href='https://drive.google.com/file/d/1B_4imZNSRmqxKkSOLLWdZugYRycjG_8u/view?usp=sharing' style={{textDecoration:'none'}}>Resume</a>
+            <a href='https://drive.google.com/file/d/1lGTXf9VpHY5TfzXZPVteOfAX4fkYw6jf/view?usp=sharing' style={{textDecoration:'none'}}>Resume</a>
 
         </div>
       
