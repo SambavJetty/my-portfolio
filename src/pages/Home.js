@@ -11,7 +11,7 @@ function Home() {
       <div className='about'>
         <h2>Hi, My name is Sambav</h2>
         <div className='prompt'>
-          <p>A software developer with a passion for learning and creating</p>
+          <p>A Software Engineer with a passion for learning and creating</p>
           <a href="https://www.linkedin.com/in/sambav-jetty-819962180/" ><LinkedInIcon /></a>
           <a href="mailto:sambavjetty@gmail.com"><EmailIcon /></a>
           <a href="https://github.com/SambavJetty"><GithubIcon /></a>
@@ -22,19 +22,19 @@ function Home() {
           <li className='item'>
             <h2>Front-End</h2>
             <span>
-              ReactJS, HTML, CSS, NPM, Bootstrap
+              ReactJS, NextJS, HTML, CSS, NPM, Bootstrap, TailwindCSS
             </span>
           </li>
           <li className='item'>
             <h2>Back-End</h2>
             <span>
-              NodeJS, ExpressJS, MySQL, REST, MongoDB, AWS
+              NodeJS, ExpressJS, Flask, MySQL, PostgreSQL, MongoDB, Supabase, Firebase, AWS
             </span>
           </li>
           <li className='item'>
             <h2>Languages</h2>
             <span>
-              JavaScript, Java, Python, SQL, NoSQL
+              JavaScript, TypeScript, Java, Python, SQL, NoSQL
             </span>
           </li>
 
