@@ -41,7 +41,7 @@ function Experience() {
           icon={<SchoolIcon />}
         >
           <h3 className="vertical-timeline-element-title">
-            VIT-AP University, Inavolu
+            Vellore Institute of Techonology
           </h3>
           <p> Bachelor's Degree </p>
         </VerticalTimelineElement>
